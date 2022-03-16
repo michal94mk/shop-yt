@@ -21,11 +21,18 @@
             <td>{{$user->name}}</td>
             <td>{{$user->surname}}</td>
             <td>{{$user->phone_number}}</td>
-            <td></td>
+            <td>
+                <button class="btn btn-danger btn-sm">x</button>
+            </td>
         </tr>
     @endforeach
     </tbody>
   </table>
   {{$users->links()}}
 </div>
+@endsection
+@section('javascript')
+$(function() {
+    console.log($('button'));
+});
 @endsection
