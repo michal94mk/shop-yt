@@ -2,6 +2,12 @@
 
 
 return [
+    'welcome' => [
+        'products' => 'Products',
+        'categories' => 'Categories',
+        'price' => 'Price',
+        'filter' => 'Update results'
+    ],
     'columns' => [
         'actions' => 'Actions',
     ],
