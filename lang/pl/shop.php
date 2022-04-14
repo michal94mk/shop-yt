@@ -3,7 +3,7 @@
 
 return [
     'welcome' => [
-        'products' => 'Produkty',
+        'products' => 'Produkty ',
         'categories' => 'Kategorie',
         'price' => 'Cena',
         'filter' => 'Filtruj'
